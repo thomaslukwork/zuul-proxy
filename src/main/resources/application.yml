@@ -1,0 +1,14 @@
+ribbon:
+  eureka:
+    enabled: false
+
+server:
+  port: 8083
+
+zuul:
+  routes:
+    books:
+      url: http://localhost:8090
+    users:
+      url: http://localhost:8091
+
