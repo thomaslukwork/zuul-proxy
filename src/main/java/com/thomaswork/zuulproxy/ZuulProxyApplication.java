@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 
 @EnableZuulProxy
 @SpringBootApplication
+//@EnableDiscoveryClient
 public class ZuulProxyApplication {
 
   public static void main(String[] args) {
