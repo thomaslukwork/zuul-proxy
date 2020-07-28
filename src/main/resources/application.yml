@@ -31,7 +31,7 @@ zuul:
     socket-timeout-millis: 5000000
   ignoredServices: '*'
   routes:
-    resource-service:
+    eureka-client:
       path: /client/**
       serviceId: eureka-client
       stripPrefix: true
